@@ -2,11 +2,11 @@
 
 /**
  * binary_tree_node - creates node for binary tree
- * 
- * parent: address of parent
- * value: value of node
  *
- * Return: address of new node 
+ * @parent: address of parent
+ * @value: value of node
+ *
+ * Return: address of new node
  *
  */
 
