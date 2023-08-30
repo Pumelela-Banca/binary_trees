@@ -5,7 +5,7 @@
  * in-order traversal
  *
  * @tree: pointer to the root node of the tree
- * @pointer to a function to call for each node
+ * @func: to a function to call for each node
  *
  * Return: void
  */
