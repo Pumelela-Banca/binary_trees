@@ -27,5 +27,5 @@ int num_nodes(const binary_tree_t *tree)
 {
 	if (tree == NULL)
 		return (0);
-	return (1 + count_nodes(tree->left) + count_nodes(tree->right));
+	return (1 + num_nodes(tree->left) + num_nodes(tree->right));
 }
