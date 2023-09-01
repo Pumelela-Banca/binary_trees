@@ -9,8 +9,6 @@
  */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
-	int ox;
-
 	if (tree == NULL)
 		return (0);
 	return (num_nodes(tree) % 2);
